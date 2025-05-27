@@ -1,0 +1,48 @@
+NOTE:USE python if py not works in windows based operating system
+
+
+TO CHECK PYTHON VERSION IN VSCODE TERMINAL
+py --version
+
+TO ONLY CHECK PIP VERSION IN VSCODE TERMINAL
+py -m ensurepip
+
+TO CHECK AND UPGRADE PIP VERSION IN VSCODE TERMINAL
+py -m ensurepip --upgrade
+
+TO UPGRADE PIP IN COMMAND PROMPT
+cd C:\Program Files\Python313\
+C:\Program Files\Python313> py -m pip install --upgrade pip (OR)
+python.exe -m pip install --upgrade pip
+
+TO UPGRADE PIP IN VSCODE TERMINAL DURING ACTIVATED VIRTUAL ENVIRONMENT
+python.exe -m pip install --upgrade pip
+
+TO CREATE VIRTUAL ENVIRONMENT IN VSCODE TERMINAL
+py -m venv vir_env(here, vir_env refers to name of the virtual environment directory)
+
+TO ACTIVATE VIRTUAL ENVIRONMENT IN VSCODE TERMINAL
+cd C:\Users\Admin\Desktop\Nanda_Django_Project\vir_env\Scripts\
+then in,
+C:\Users\Admin\Desktop\Nanda_Django_Project\vir_env\Scripts>
+type the command activate
+(here, vir_env refers to name of the virtual environment directory)
+Note: You must activate the virtual environment every time you open the command prompt or vscode terminal to work on your project.
+
+TO INSTALL DJANGO IN VSCODE TERMINAL
+py -m pip install Django
+
+TO CHECK DJANGO VERSION IN VSCODE TERMINAL
+py -m django --version (OR) django-admin --version
+
+CREATING A DIRECTORY IN VSCODE TERMINAL(IF NEEDED)
+mkdir my_folder(here, my_folder refers to name of the directory)
+
+CREATING A PROJECT INSIDE A DIRECTORY IN VSCODE TERMINAL
+django-admin startproject my_site(This will create a project called my_site)
+Note: You must activate the virtual environment every time you open the command prompt or vscode terminal to work on your project.
+
+TO RUN THE DJANGO PROJECT
+Navigate to the /my_site(here, my_site refers to name of the project) and execute this command in the vscode terminal:
+python manage.py runserver
+
